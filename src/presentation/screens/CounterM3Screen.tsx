@@ -12,7 +12,7 @@ export const CounterM3Screen = () => {
 
       <FAB
         style={globalStyles.fab}
-        label="+1"
+        icon="plus"
         onPress={() => setCounter(counter + 1)}
         onLongPress={() => setCounter(0)}
       />
