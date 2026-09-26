@@ -6,7 +6,7 @@ const App = () => {
   return (
     <SafeAreaProvider>
       <SafeAreaView style={styles.container}>
-        <HelloWorldScreen />
+        <HelloWorldScreen name="Edwin Cardenas" />
       </SafeAreaView>
     </SafeAreaProvider>
   );
