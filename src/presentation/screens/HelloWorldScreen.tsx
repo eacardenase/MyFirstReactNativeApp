@@ -4,7 +4,7 @@ interface Props {
   name?: string;
 }
 
-const HelloWorldScreen = ({ name = 'World' }: Props) => {
+export const HelloWorldScreen = ({ name = 'World' }: Props) => {
   return (
     <View style={styles.container}>
       <Text style={styles.title} numberOfLines={1} ellipsizeMode="tail">
@@ -28,5 +28,3 @@ const styles = StyleSheet.create({
     backgroundColor: 'red',
   },
 });
-
-export default HelloWorldScreen;

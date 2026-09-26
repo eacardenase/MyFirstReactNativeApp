@@ -1,12 +1,13 @@
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
-import HelloWorldScreen from './src/presentation/screens/HelloWorldScreen';
 import { StyleSheet } from 'react-native';
+import { CounterScreen } from './src/presentation/screens';
 
 const App = () => {
   return (
     <SafeAreaProvider>
       <SafeAreaView style={styles.container}>
-        <HelloWorldScreen name="Edwin Cardenas" />
+        {/* <HelloWorldScreen name="Edwin Cardenas" /> */}
+        <CounterScreen />
       </SafeAreaView>
     </SafeAreaProvider>
   );
