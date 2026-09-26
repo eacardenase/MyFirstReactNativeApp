@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { View, Text, StyleSheet, Pressable } from 'react-native';
+import { View, Text, StyleSheet, Pressable, Platform } from 'react-native';
 
 export const CounterScreen = () => {
   const [counter, setCounter] = useState<number>(0);
@@ -35,15 +35,16 @@ const styles = StyleSheet.create({
     fontWeight: 300,
   },
   button: {
-    backgroundColor: '#5856D6',
+    backgroundColor: Platform.OS === 'android' ? '#5856D6' : 'white',
     paddingHorizontal: 20,
     paddingVertical: 10,
     borderRadius: 10,
   },
   buttonText: {
-    color: 'white',
+    color: Platform.OS === 'android' ? 'white' : '#4746AB',
+    fontSize: 20,
   },
   buttonPressed: {
-    backgroundColor: '#4746AB',
+    backgroundColor: Platform.OS === 'android' ? '#4746AB' : 'white',
   },
 });
