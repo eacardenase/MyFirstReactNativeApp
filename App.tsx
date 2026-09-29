@@ -3,7 +3,8 @@ import { StyleSheet } from 'react-native';
 import { PaperProvider } from 'react-native-paper';
 import {
   // BoxObjectModelScreen,
-  DimensionScreen,
+  // DimensionScreen,
+  PositionScreen,
   // CounterM3Screen,
   //  CounterScreen
 } from './src/presentation/screens';
@@ -17,7 +18,8 @@ const App = () => {
           {/* <CounterScreen /> */}
           {/* <CounterM3Screen /> */}
           {/* <BoxObjectModelScreen /> */}
-          <DimensionScreen />
+          {/* <DimensionScreen /> */}
+          <PositionScreen />
         </SafeAreaView>
       </SafeAreaProvider>
     </PaperProvider>
