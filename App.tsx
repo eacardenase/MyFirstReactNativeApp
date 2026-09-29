@@ -2,7 +2,8 @@ import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import { StyleSheet } from 'react-native';
 import { PaperProvider } from 'react-native-paper';
 import {
-  BoxObjectModelScreen,
+  // BoxObjectModelScreen,
+  DimensionScreen,
   // CounterM3Screen,
   //  CounterScreen
 } from './src/presentation/screens';
@@ -15,7 +16,8 @@ const App = () => {
           {/* <HelloWorldScreen name="Edwin Cardenas" /> */}
           {/* <CounterScreen /> */}
           {/* <CounterM3Screen /> */}
-          <BoxObjectModelScreen />
+          {/* <BoxObjectModelScreen /> */}
+          <DimensionScreen />
         </SafeAreaView>
       </SafeAreaProvider>
     </PaperProvider>
