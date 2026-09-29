@@ -11,7 +11,7 @@ export const PositionScreen = () => {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    // flex: 1,
     backgroundColor: '#28C4D9',
     justifyContent: 'center',
     alignItems: 'center',
@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
     height: 100,
     borderWidth: 10,
     borderColor: 'white',
-    top: 0,
+    top: -50,
   },
   orangeBox: {
     backgroundColor: '#F0A23B',
@@ -31,5 +31,6 @@ const styles = StyleSheet.create({
     borderWidth: 10,
     borderColor: 'white',
     left: 100,
+    top: 50,
   },
 });
