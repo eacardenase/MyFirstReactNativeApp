@@ -14,6 +14,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: 'teal',
+    justifyContent: 'center',
   },
   box: {
     width: 100,
@@ -26,9 +27,9 @@ const styles = StyleSheet.create({
   },
   orangeBox: {
     backgroundColor: 'orange',
-    flex: 1,
   },
   blueBox: {
     backgroundColor: 'cyan',
+    width: '100%',
   },
 });
