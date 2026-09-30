@@ -16,21 +16,22 @@ const styles = StyleSheet.create({
     // backgroundColor: '#D1D1D1',
     flexDirection: 'row',
     justifyContent: 'space-between',
-    alignItems: 'center',
+    alignItems: 'stretch',
   },
   box: {
+    // flex: 1,
     width: 100,
-    height: 100,
+    // height: 100,
   },
   box1: {
     backgroundColor: 'yellow',
-    top: -50,
+    // top: -50,
   },
   box2: {
     backgroundColor: 'blue',
   },
   box3: {
     backgroundColor: 'red',
-    top: 50,
+    // top: 50,
   },
 });
