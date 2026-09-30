@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: 'teal',
-    justifyContent: 'center',
+    justifyContent: 'space-between',
     alignItems: 'center',
     flexDirection: 'column',
   },
@@ -30,9 +30,9 @@ const styles = StyleSheet.create({
   },
   orangeBox: {
     backgroundColor: 'orange',
-    alignSelf: 'flex-start',
   },
   blueBox: {
     backgroundColor: 'cyan',
+    alignSelf: 'flex-start',
   },
 });
