@@ -13,7 +13,7 @@ export const FlexScreen = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    color: 'gray',
+    backgroundColor: 'gray',
     // flexDirection: 'column-reverse',
   },
   box1: {

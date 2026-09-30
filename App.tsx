@@ -2,7 +2,8 @@ import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import { StyleSheet } from 'react-native';
 import { PaperProvider } from 'react-native-paper';
 import {
-  FlexScreen,
+  FlexDirectionScreen,
+  // FlexScreen,
   // BoxObjectModelScreen,
   // DimensionScreen,
   // PositionScreen,
@@ -21,7 +22,8 @@ const App = () => {
           {/* <BoxObjectModelScreen /> */}
           {/* <DimensionScreen /> */}
           {/* <PositionScreen /> */}
-          <FlexScreen />
+          {/* <FlexScreen /> */}
+          <FlexDirectionScreen />
         </SafeAreaView>
       </SafeAreaProvider>
     </PaperProvider>
