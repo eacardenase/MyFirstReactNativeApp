@@ -14,23 +14,22 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: 'teal',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   box: {
-    // width: 100,
-    // height: 100,
+    width: 100,
+    height: 100,
     borderWidth: 10,
     borderColor: 'white',
   },
   purpleBox: {
     backgroundColor: 'purple',
-    flex: 1,
   },
   orangeBox: {
     backgroundColor: 'orange',
-    flex: 1,
   },
   blueBox: {
     backgroundColor: 'cyan',
-    flex: 2,
   },
 });
