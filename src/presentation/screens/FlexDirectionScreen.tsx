@@ -6,6 +6,39 @@ export const FlexDirectionScreen = () => {
       <View style={[styles.box, styles.box1]} />
       <View style={[styles.box, styles.box2]} />
       <View style={[styles.box, styles.box3]} />
+      <View style={[styles.box, styles.box1]} />
+      <View style={[styles.box, styles.box2]} />
+      <View style={[styles.box, styles.box3]} />
+      <View style={[styles.box, styles.box1]} />
+      <View style={[styles.box, styles.box2]} />
+      <View style={[styles.box, styles.box3]} />
+      <View style={[styles.box, styles.box1]} />
+      <View style={[styles.box, styles.box2]} />
+      <View style={[styles.box, styles.box3]} />
+      <View style={[styles.box, styles.box1]} />
+      <View style={[styles.box, styles.box2]} />
+      <View style={[styles.box, styles.box3]} />
+      <View style={[styles.box, styles.box1]} />
+      <View style={[styles.box, styles.box2]} />
+      <View style={[styles.box, styles.box3]} />
+      <View style={[styles.box, styles.box1]} />
+      <View style={[styles.box, styles.box2]} />
+      <View style={[styles.box, styles.box3]} />
+      <View style={[styles.box, styles.box1]} />
+      <View style={[styles.box, styles.box2]} />
+      <View style={[styles.box, styles.box3]} />
+      <View style={[styles.box, styles.box1]} />
+      <View style={[styles.box, styles.box2]} />
+      <View style={[styles.box, styles.box3]} />
+      <View style={[styles.box, styles.box1]} />
+      <View style={[styles.box, styles.box2]} />
+      <View style={[styles.box, styles.box3]} />
+      <View style={[styles.box, styles.box1]} />
+      <View style={[styles.box, styles.box2]} />
+      <View style={[styles.box, styles.box3]} />
+      <View style={[styles.box, styles.box1]} />
+      <View style={[styles.box, styles.box2]} />
+      <View style={[styles.box, styles.box3]} />
     </View>
   );
 };
@@ -14,9 +47,13 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     // backgroundColor: '#D1D1D1',
-    flexDirection: 'column-reverse',
-    justifyContent: 'space-between',
+    flexDirection: 'row',
+    justifyContent: 'center',
     alignItems: 'stretch',
+    flexWrap: 'wrap',
+    gap: 3,
+    // columnGap: 10,
+    // rowGap: 10,
   },
   box: {
     // flex: 1,
@@ -29,11 +66,11 @@ const styles = StyleSheet.create({
   },
   box2: {
     backgroundColor: 'blue',
-    alignSelf: 'center',
+    // alignSelf: 'center',
   },
   box3: {
     backgroundColor: 'red',
     // top: 50,
-    alignSelf: 'flex-end',
+    // alignSelf: 'flex-end',
   },
 });
