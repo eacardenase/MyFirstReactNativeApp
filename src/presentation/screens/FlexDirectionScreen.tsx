@@ -14,14 +14,14 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     // backgroundColor: '#D1D1D1',
-    flexDirection: 'row',
+    flexDirection: 'column-reverse',
     justifyContent: 'space-between',
     alignItems: 'stretch',
   },
   box: {
     // flex: 1,
     width: 100,
-    // height: 100,
+    height: 100,
   },
   box1: {
     backgroundColor: 'yellow',
@@ -29,9 +29,11 @@ const styles = StyleSheet.create({
   },
   box2: {
     backgroundColor: 'blue',
+    alignSelf: 'center',
   },
   box3: {
     backgroundColor: 'red',
     // top: 50,
+    alignSelf: 'flex-end',
   },
 });
